@@ -3,6 +3,9 @@ package com.wgx.desgin_pattern.observer_pattern;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 被观察者对象
+ */
 public class ObserverAble {
 
     private List<Observer> observers = new ArrayList<>();

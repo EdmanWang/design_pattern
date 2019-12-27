@@ -1,5 +1,8 @@
 package com.wgx.desgin_pattern.template_method_pattern;
 
+/**
+ * 抽象初一个方法出去，这个方法又用户决定怎么去实现。
+ */
 public abstract class TemplateMethod {
 
     public void method() {
